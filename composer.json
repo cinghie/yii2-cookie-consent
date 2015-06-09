@@ -14,7 +14,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-		"silktide/cookieconsent": "*"
+		"silktide/cookieconsent2": "*"
     },
     "autoload": {
         "psr-4": {
