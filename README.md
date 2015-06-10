@@ -41,8 +41,10 @@ use cinghie\cookieconsent\widgets\CookieWidget;
 Theme Options
 -----------------
 
-All the themes you can use are in the assets/css folder
-If you don't want a link for more info set learnMore to null
+<ul>
+  <li>If you don't want a link for more info set learnMore to null</li>
+  <li>All the themes you can use are in the assets/css folder</li>
+</ul>
 
 Libraries Included
 -----------------
