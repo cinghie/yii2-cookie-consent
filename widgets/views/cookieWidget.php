@@ -17,6 +17,8 @@ CookieAsset::register($this);
 $asset = $this->assetBundles['cinghie\cookieconsent\assets\CookieAsset'];
 
 $this->registerJs("window.cookieconsent_options = {
+	message: '{$message}',
+	dismiss: '{$dismiss}',
 	learnMore: '{$learnMore}',
     link: '{$link}',
     theme: '{$theme}'

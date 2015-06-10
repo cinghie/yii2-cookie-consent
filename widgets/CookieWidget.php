@@ -17,6 +17,8 @@ use yii\base\widget;
 
 class CookieWidget extends Widget 
 {
+  public $message;
+  public $dismiss;  
   public $learnMore;
   public $link;
   public $theme;
@@ -25,6 +27,19 @@ class CookieWidget extends Widget
 	  parent::init();
 	  
 	  // Default Value
+	  
+	  if(!$this->message) {
+	  	  $this->message	= 'This website uses cookies to ensure you get the best experience on our website.';
+	  } else {
+  	  	  $this->message = $this->message;
+	  }
+	  
+	  if(!$this->dismiss) {
+	  	  $this->dismiss	= 'Got It!';
+	  } else {
+  	  	  $this->dismiss = $this->dismiss;
+	  }
+	  
 	  if(!$this->learnMore) {
 	  	  $this->learnMore	= 'More info';
 	  } else {
