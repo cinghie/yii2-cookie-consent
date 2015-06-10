@@ -17,9 +17,26 @@ $ php composer.phar require cinghie/yii2-cookie-consent "*"
 or add in composer.json
 
 ```
-"cinghie/yii2-articles": "*"
+"cinghie/yii2-cookie-consent": "*"
 ```
 
+Insert Widget
+-----------------
 
-## LIBRARIES NEEDED
-https://github.com/silktide/cookieconsent2
+You can load the CookieConsent Widget like this:
+
+```
+<?= CookieWidget::widget( [ 
+        'learnMore' => 'More info',
+		'link' => 'http://silktide.com/privacy-policy',
+		'theme' => 'dark-bottom'
+] ); ?>
+```
+
+Theme Options
+-----------------
+
+All the themes you can use are in the assets/css folder
+
+## LIBRARIES INCLUDED
+https://github.com/silktide/cookieconsent2 (Version 1.0.3)

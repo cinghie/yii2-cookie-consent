@@ -10,17 +10,13 @@
 * @version 1.0
 */
 
-namespace cinghie\cookieconsent;
+namespace cinghie\cookieconsent\assets;
 
 use yii\web\AssetBundle;
 
 class CookieAsset extends AssetBundle
 {
 	public $sourcePath = __DIR__;
-	
-	public $css = array(
-		'css/dark-bottom.scss',
-	);
 	
 	public $js=[
 		'js/cookieconsent.js',
