@@ -4,7 +4,8 @@ Yii2 Cookie Consent
 Yii2 Cookie Consent to alerting users about the use of cookies on your Yii2 website, 
 using Cookie Consent Script: https://github.com/silktide/cookieconsent2
 
-## INSTALLATION USING COMPOSER
+INSTALLATION USING COMPOSER
+-----------------
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
@@ -38,5 +39,7 @@ Theme Options
 
 All the themes you can use are in the assets/css folder
 
-## LIBRARIES INCLUDED
+LIBRARIES INCLUDED
+-----------------
+
 https://github.com/silktide/cookieconsent2 (Version 1.0.3)
