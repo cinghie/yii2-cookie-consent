@@ -29,19 +29,20 @@ You can load the CookieConsent Widget like this:
 ```
 use cinghie\cookieconsent\widgets\CookieWidget;
 
-<?= CookieWidget::widget( [ 
+<?= CookieWidget::widget([ 
         'message' => 'This website uses cookies to ensure you get the best experience on our website.',
 		'dismiss' => 'Got It',
         'learnMore' => 'More info',
 		'link' => 'http://silktide.com/privacy-policy',
 		'theme' => 'dark-bottom'
-] ); ?>
+]); ?>
 ```
 
 Theme Options
 -----------------
 
 All the themes you can use are in the assets/css folder
+If you don't want a link for more info set learnMore to null
 
 Libraries Included
 -----------------

@@ -47,7 +47,7 @@ class CookieWidget extends Widget
 	  }
 	  
 	  if(!$this->link) {
-	  	  $this->link	= 'http://silktide.com/privacy-policy';
+	  	  $this->link	= null;
 	  } else {
   	  	  $this->link = $this->link;
 	  }
@@ -61,10 +61,12 @@ class CookieWidget extends Widget
   
   public function run($params = [])
   {      
-      return $this->render('cookieWidget', [
-	  	  'learnMore'   => $this->learnMore,
-          'link'        => $this->link,
-          'theme'       => $this->theme
+      return $this->render('cookieWidget',[
+		  'message'   => $this->message,
+		  'dismiss'   => $this->dismiss,
+	  	  'learnMore' => $this->learnMore,
+          'link'      => $this->link,
+          'theme'     => $this->theme
       ]);
   }
 
