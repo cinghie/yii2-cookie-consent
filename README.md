@@ -27,6 +27,8 @@ Insert Widget
 You can load the CookieConsent Widget like this:
 
 ```
+use cinghie\cookieconsent\widgtes\CookieWidget;
+
 <?= CookieWidget::widget( [ 
         'learnMore' => 'More info',
 		'link' => 'http://silktide.com/privacy-policy',
