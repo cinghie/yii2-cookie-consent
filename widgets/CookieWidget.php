@@ -13,9 +13,8 @@
 namespace cinghie\cookieconsent\widgets;
 
 use Yii;
-use yii\base\widget;
 
-class CookieWidget extends Widget 
+class CookieWidget extends \yii\base\Widget 
 {
   public $message;
   public $dismiss;  
