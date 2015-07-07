@@ -46,7 +46,19 @@ Theme Options
   <li>All the themes you can use are in the assets/css folder</li>
 </ul>
 
+Changelog
+-----------------
+
+<ul>
+  <li>Version 1.2.0 - Update JS to 1.04 and ordered after Bootstrap</li>
+  <li>Version 1.1.2 - Fixing error to extends yii Widget problem</li>
+  <li>Version 1.1.1 - Added link null option</li>
+  <li>Version 1.1.0 - Added Message & Dismiss Value</li>
+  <li>Version 1.0.1 - Updated README</li>
+  <li>Version 1.0.0 - Initial Release</li>
+</ul>
+
 Libraries Included
 -----------------
 
-https://github.com/silktide/cookieconsent2 (Version 1.0.3)
+https://github.com/silktide/cookieconsent2 (Version 1.0.4)
