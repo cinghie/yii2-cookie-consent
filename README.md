@@ -51,7 +51,8 @@ Changelog
 -----------------
 
 <ul>
-  <li>Version 1.2.0 - Update JS to 1.04 and ordered after Bootstrap</li>
+  <li>Version 1.3.0 - Update JS to 1.0.6 version and added new params</li>
+  <li>Version 1.2.0 - Update JS to 1.0.4 version and ordered after Bootstrap</li>
   <li>Version 1.1.2 - Fixing error to extends yii Widget problem</li>
   <li>Version 1.1.1 - Added link null option</li>
   <li>Version 1.1.0 - Added Message & Dismiss Value</li>
@@ -62,4 +63,4 @@ Changelog
 Libraries Included
 -----------------
 
-https://github.com/silktide/cookieconsent2 (Version 1.0.4)
+https://github.com/silktide/cookieconsent2 (Version 1.0.6)

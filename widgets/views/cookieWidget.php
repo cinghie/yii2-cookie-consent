@@ -7,7 +7,7 @@
 * @github https://github.com/cinghie/yii2-cookie-consent
 * @license GNU GENERAL PUBLIC LICENSE VERSION 3
 * @package yii2-cookie-consent
-* @version 1.2.0
+* @version 1.3.0
 */
 
 use cinghie\cookieconsent\assets\CookieAsset;
@@ -16,12 +16,13 @@ use cinghie\cookieconsent\assets\CookieAsset;
 CookieAsset::register($this);
 $asset = $this->assetBundles['cinghie\cookieconsent\assets\CookieAsset'];
 
-$this->registerJs("window.cookieconsent_options = {
-	message: '{$message}',
-	dismiss: '{$dismiss}',
-	learnMore: '{$learnMore}',
-    link: '{$link}',
-    theme: '{$theme}'
-};");
+// Create codeJS
+$codeJS = "window.cookieconsent_options = { message: '{$message}', dismiss: '{$dismiss}', learnMore: '{$learnMore}', link: '{$link}', theme: '{$theme}', container: '{$container}', path: '{$path}',";
+if($domain){
+    $codeJS .= " domain: '{$domain}',";
+}
+$codeJS .= " expiryDays: {$expiryDays} };";
+
+$this->registerJs($codeJS);
 
 ?>
