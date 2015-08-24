@@ -42,6 +42,7 @@ Theme Options
 -----------------
 
 <ul>
+  <li>All Options: https://silktide.com/tools/cookie-consent/docs/installation/</li>
   <li>If you don't want a link for more info set learnMore to null</li>
   <li>All the themes you can use are in the assets/css folder</li>
 </ul>
