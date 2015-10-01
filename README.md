@@ -51,6 +51,8 @@ Changelog
 -----------------
 
 <ul>
+  <li>Version 1.4.2 - Updated version</li>
+  <li>Version 1.4.1 - Fixed composer bug</li>
   <li>Version 1.4.0 - Added Cookie Consent Bower Asset</li>
   <li>Version 1.3.0 - Update JS to 1.0.6 version and added new params</li>
   <li>Version 1.2.0 - Update JS to 1.0.4 version and ordered after Bootstrap</li>
