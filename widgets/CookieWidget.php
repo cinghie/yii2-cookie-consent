@@ -7,7 +7,7 @@
 * @github https://github.com/cinghie/yii2-cookie-consent
 * @license GNU GENERAL PUBLIC LICENSE VERSION 3
 * @package yii2-cookie-consent
-* @version 1.3.0
+* @version 1.4.0
 */
 
 namespace cinghie\cookieconsent\widgets;
@@ -30,7 +30,6 @@ class CookieWidget extends \yii\base\Widget
 	  parent::init();
 	  
 	  // Default Value
-	  
 	  if(!$this->message) {
 	  	  $this->message = 'This website uses cookies to ensure you get the best experience on our website.';
 	  } else {

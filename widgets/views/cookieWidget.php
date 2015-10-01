@@ -7,7 +7,7 @@
 * @github https://github.com/cinghie/yii2-cookie-consent
 * @license GNU GENERAL PUBLIC LICENSE VERSION 3
 * @package yii2-cookie-consent
-* @version 1.3.0
+* @version 1.4.0
 */
 
 use cinghie\cookieconsent\assets\CookieAsset;
@@ -24,5 +24,3 @@ if($domain){
 $codeJS .= " expiryDays: {$expiryDays} };";
 
 $this->registerJs($codeJS);
-
-?>
