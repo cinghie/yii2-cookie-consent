@@ -42,7 +42,7 @@ Theme Options
 -----------------
 
 <ul>
-  <li>All Options: https://silktide.com/tools/cookie-consent/docs/installation/</li>
+  <li>All Options at https://silktide.com/tools/cookie-consent/docs/installation/</li>
   <li>If you don't want a link for more info set learnMore to null</li>
   <li>All the themes you can use are in the assets/css folder</li>
 </ul>
@@ -51,6 +51,7 @@ Changelog
 -----------------
 
 <ul>
+  <li>Version 1.4.0 - Added Cookie Consent Bower Asset</li>
   <li>Version 1.3.0 - Update JS to 1.0.6 version and added new params</li>
   <li>Version 1.2.0 - Update JS to 1.0.4 version and ordered after Bootstrap</li>
   <li>Version 1.1.2 - Fixing error to extends yii Widget problem</li>

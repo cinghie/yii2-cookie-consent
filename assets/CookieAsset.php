@@ -7,25 +7,23 @@
 * @github https://github.com/cinghie/yii2-cookie-consent
 * @license GNU GENERAL PUBLIC LICENSE VERSION 3
 * @package yii2-cookie-consent
-* @version 1.3.0
+* @version 1.4.0
 */
 
 namespace cinghie\cookieconsent\assets;
 
-use yii\web\AssetBundle;
-
-class CookieAsset extends AssetBundle
+class CookieAsset extends \yii\web\AssetBundle
 {
 	/**
      * @inherit
      */
-	public $sourcePath = __DIR__;
+	public $sourcePath = '@bower/cookieconsent2/';
 	
 	/**
      * @inherit
      */
 	public $js=[
-		'js/cookieconsent.js',
+		'cookieconsent.js',
 	];
 	
 	/**

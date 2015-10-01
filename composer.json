@@ -13,7 +13,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+		"bower-asset/cookieconsent2": "*",
     },
     "autoload": {
         "psr-4": {
