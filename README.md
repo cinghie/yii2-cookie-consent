@@ -60,8 +60,3 @@ Changelog
   <li>Version 1.0.1 - Updated README</li>
   <li>Version 1.0.0 - Initial Release</li>
 </ul>
-
-Libraries Included
------------------
-
-https://github.com/silktide/cookieconsent2 (Version 1.0.6)
