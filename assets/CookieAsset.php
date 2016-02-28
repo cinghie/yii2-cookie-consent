@@ -17,13 +17,13 @@ class CookieAsset extends \yii\web\AssetBundle
 	/**
      * @inherit
      */
-	public $sourcePath = '@bower/cookieconsent2/';
+	public $sourcePath = '@bower/cookieconsent2/build/';
 	
 	/**
      * @inherit
      */
 	public $js=[
-		'cookieconsent.js',
+		'cookieconsent.min.js',
 	];
 	
 	/**
