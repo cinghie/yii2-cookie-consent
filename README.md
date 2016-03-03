@@ -50,6 +50,7 @@ Changelog
 -----------------
 
 <ul>
+  <li>Version 1.4.3 - Fix #2 403 forbidden css</li>
   <li>Version 1.4.2 - Updated version</li>
   <li>Version 1.4.1 - Fixed composer bug</li>
   <li>Version 1.4.0 - Added Cookie Consent Bower Asset</li>
