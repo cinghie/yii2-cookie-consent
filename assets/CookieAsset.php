@@ -12,7 +12,9 @@
 
 namespace cinghie\cookieconsent\assets;
 
-class CookieAsset extends \yii\web\AssetBundle
+use yii\web\AssetBundle;
+
+class CookieAsset extends AssetBundle
 {
 	/**
      * @inherit
