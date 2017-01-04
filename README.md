@@ -50,6 +50,7 @@ Changelog
 -----------------
 
 <ul>
+  <li>Version 1.4.5 - Fix #4 Bower Asset version</li>
   <li>Version 1.4.4 - Update Bower Asset</li>
   <li>Version 1.4.3 - Fix #2 403 forbidden css</li>
   <li>Version 1.4.2 - Updated version</li>
