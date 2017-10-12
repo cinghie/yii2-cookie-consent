@@ -19,7 +19,7 @@ class CookieAsset extends AssetBundle
 	/**
      * @inherit
      */
-	public $sourcePath = '@bower/cookieconsent2/build/';
+	public $sourcePath = '@bower/cookieconsent/build/';
 	
 	/**
      * @inherit
