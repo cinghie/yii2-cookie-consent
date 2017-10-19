@@ -57,15 +57,15 @@ class CookieWidget extends Widget
 	  }
 	  
 	  if(!$this->path) {
-	  	  $this->path = "/";
+	  	  $this->path = '/';
 	  }
 	  
 	  if(!$this->domain) {
-	  	  $this->domain	= "";
+	  	  $this->domain	= '';
 	  }
 	  
 	  if(!$this->expiryDays) {
-	  	  $this->expiryDays	= 365;
+	  	  $this->expiryDays	= '365';
 	  }
   }
   
