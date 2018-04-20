@@ -2,7 +2,7 @@
 
 /**
 * @copyright Copyright &copy; Gogodigital Srls
-* @company Gogodigital Srls - Wide ICT Solutions 
+* @company Gogodigital Srls - Wide ICT Solutions
 * @website http://www.gogodigital.it
 * @github https://github.com/cinghie/yii2-cookie-consent
 * @license GNU GENERAL PUBLIC LICENSE VERSION 3
@@ -17,7 +17,7 @@ CookieAsset::register($this);
 $asset = $this->assetBundles['cinghie\cookieconsent\assets\CookieAsset'];
 
 // Create codeJS
-$codeJS = "window.cookieconsent_options = { message: '{$message}', dismiss: '{$dismiss}', learnMore: '{$learnMore}', link: '{$link}', theme: '{$theme}', container: '{$container}', path: '{$path}',";
+$codeJS = "window.cookieconsent_options = { message: '{$message}', dismiss: '{$dismiss}', learnMore: '{$learnMore}', link: '{$link}', theme: '{$theme}', container: '{$container}', path: '{$path}', target: '{$target}',";
 
 if($domain){
     $codeJS .= " domain: '{$domain}',";
