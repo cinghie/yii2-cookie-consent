@@ -25,4 +25,4 @@ if($domain){
 
 $codeJS .= " expiryDays: {$expiryDays} };";
 
-$this->registerJs($codeJS);
+$this->registerJs($codeJS, \yii\web\View::POS_BEGIN);
