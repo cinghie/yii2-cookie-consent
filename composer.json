@@ -19,8 +19,9 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "2.0.*",
-        "bower-asset/cookieconsent": "2.0.*"
+        "yiisoft/yii2": "^2.0.15",
+        "bower-asset/cookieconsent": "^2.0.0",
+        "roave/security-advisories": "dev-master"
     },
     "autoload": {
         "psr-4": {

@@ -12,7 +12,10 @@
 
 namespace cinghie\cookieconsent\assets;
 
+use yii\bootstrap\BootstrapAsset;
+use yii\bootstrap\BootstrapPluginAsset;
 use yii\web\AssetBundle;
+use yii\web\YiiAsset;
 
 class CookieAsset extends AssetBundle
 {
@@ -32,9 +35,9 @@ class CookieAsset extends AssetBundle
      * @inherit
      */
 	public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
-        'yii\bootstrap\BootstrapPluginAsset',
+		YiiAsset::class,
+		BootstrapAsset::class,
+		BootstrapPluginAsset::class,
     ];
 
 }
