@@ -7,7 +7,7 @@
 * @github https://github.com/cinghie/yii2-cookie-consent
 * @license GNU GENERAL PUBLIC LICENSE VERSION 3
 * @package yii2-cookie-consent
-* @version 1.5.0
+* @version 1.5.1
 */
 
 namespace cinghie\cookieconsent\widgets;
