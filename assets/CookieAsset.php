@@ -7,7 +7,7 @@
 * @github https://github.com/cinghie/yii2-cookie-consent
 * @license GNU GENERAL PUBLIC LICENSE VERSION 3
 * @package yii2-cookie-consent
-* @version 1.5.1
+* @version 3.0.0
 */
 
 namespace cinghie\cookieconsent\assets;
@@ -17,17 +17,27 @@ use yii\bootstrap\BootstrapPluginAsset;
 use yii\web\AssetBundle;
 use yii\web\YiiAsset;
 
+/**
+ * Class CookieAsset
+ */
 class CookieAsset extends AssetBundle
 {
 	/**
      * @inherit
      */
 	public $sourcePath = '@bower/cookieconsent/build/';
-	
+
+	/**
+	 * @inherit
+	 */
+	public $css = [
+		'cookieconsent.min.css',
+	];
+
 	/**
      * @inherit
      */
-	public $js=[
+	public $js = [
 		'cookieconsent.min.js',
 	];
 	
@@ -39,5 +49,4 @@ class CookieAsset extends AssetBundle
 		BootstrapAsset::class,
 		BootstrapPluginAsset::class,
     ];
-
 }
